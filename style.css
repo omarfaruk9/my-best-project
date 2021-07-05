@@ -49,10 +49,12 @@ section{
 
 .box h1{
     color: yellow;
+    margin-left: 22px;
 }
 
 .box h2{
     color: rgb(64, 154, 64);
+    margin-left: 22px;
 }
 .box p{
     color: rgb(255, 255, 255);
@@ -107,8 +109,10 @@ section{
     width: 20%;
     padding: 30px 20px;
     float: left;
-    border: 5px solid yellow;
-    border-radius:15px ;
+    border: 5px solid;
+    border-image: linear-gradient(to left, red,blue,skyblue);
+    border-image-slice:1;
+    border-radius: 15px; important;
     margin: 0px 37px;
 }
 .team:hover{
